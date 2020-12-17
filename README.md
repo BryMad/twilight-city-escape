@@ -1,7 +1,7 @@
 # twilight-city-escape
 Twilight City Escape: a Homework 6 Escape Game
 
-Twilight City Escape is a retro side-scrolling chase game written for CMSI 185. You are a rogue hero trying to outrun the corrupt Twighlight City Air Police. Use your mouse to guide your Players escape. Click your mouse to deploy a decoy to distract the gullible air cops and make your getaway.
+Twilight City Escape is a retro side-scrolling chase game written for CMSI 185. You are a rogue hero trying to outrun the corrupt Twighlight City Air Police. Use your mouse to guide your Player's escape. Click your mouse to deploy a decoy to distract the gullible air cops and make your getaway.
 
 The game can be played at https://BryMad.github.io/twilight-city-escape
 
