@@ -1,0 +1,24 @@
+header {
+  background-color: pink;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: rgb(227, 127, 61);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px
+}
+
+body {
+  font-family: 'VT323', sans-serif;
+  font-size: 25px;
+  color: rgb(227, 127, 61);
+  background-color: rgb(91, 5, 83);
+}
+
+footer {
+  font-style: italic;
+  font-size: 10px;
+}
