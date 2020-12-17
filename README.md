@@ -6,7 +6,7 @@ Twilight City Escape is a retro side-scrolling chase game written for CMSI 185. 
 The game can be played at https://brymad.github.io/twilight-city-escape/
 
 Embellishments
-* scrolling, three-layer background to create parallax effects
+* scrolling, three-layer background to create parallax effect
 * sprites for player, decoy, and enemies
 * enemies animate left and right
 * player damage animation triggered by collision detection
@@ -14,8 +14,8 @@ Embellishments
 * game adds additional, speedier “elite” enemies after a longer amount of time has passed
 
 Future Goals
-* Implement high score feature as a function of the time
-* Use collision to detection to prevent agents from overlapping
+* Implement high score feature as a function of time variable
+* Use collision detection/vector math to prevent agents from overlapping
 * Break “elite” enemies into a separate class with their own unique sprite image
 * some form of power-ups
 
