@@ -19,8 +19,8 @@ let framesUntilSpawnEnemies = 400;
 let framesUntilEliteEnemies = 1200;
 let damageRate = 0.5;
 let gameOver = false;
-let playerSpeed = 2.7;
-let enemySpeedFloor = 1
+let playerSpeed = 4.5;
+let enemySpeedFloor = 1.5
 const healthSpan = document.querySelector("#health");
 const scarecrowSpan = document.querySelector("#scarecrow");
 
@@ -269,10 +269,10 @@ const game = {
   },
   spawnEliteEnemies() {
     if (time % framesUntilEliteEnemies === 0 && !gameOver && !game.scarecrow.visible) {
-      game.enemies.push(new Enemy(random(game.startLocations), random(height), Math.random() + ((0.9 * playerSpeed) - 1), game.player));
+      game.enemies.push(new Enemy(random(game.startLocations), random(height), Math.random() + ((0.7 * playerSpeed) - 1), game.player));
     }
     if (time % framesUntilEliteEnemies === 0 && !gameOver && game.scarecrow.visible) {
-      game.enemies.push(new Enemy(random(game.startLocations), random(height), Math.random() + ((0.9 * playerSpeed) - 1), game.scarecrow));
+      game.enemies.push(new Enemy(random(game.startLocations), random(height), Math.random() + ((0.7 * playerSpeed) - 1), game.scarecrow));
     }
   },
   updateHUD() {
